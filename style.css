@@ -1,0 +1,178 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: slategray;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px 80px 0px 80px;
+    color: moccasin;
+}
+
+.instruction {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 80px 20px 80px;
+    color: moccasin
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.choice-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(201, 201, 136);
+}
+
+.choice-name,
+.result-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: moccasin;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.result-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.result-static,
+.player-name,
+#player-choice,
+#computer-choice {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: moccasin;
+    justify-content: center;
+}
+
+#player-score,
+#computer-score {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    color: moccasin;
+    justify-content: center;
+}
+
+.result-user,
+.result-computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#player-image,
+#computer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.result-vs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 400;
+    color: moccasin;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 100px;
+}
+
+.result-vs h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.restart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#restart-btn {
+    color: moccasin;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid moccasin;
+    border-radius: 10px;
+}
+
+.restart i {
+    padding-right: 10px;
+}
+
+#result-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: moccasin;
+    padding-bottom: 40px
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

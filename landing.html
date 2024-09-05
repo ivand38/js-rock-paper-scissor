@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Rock Paper Scissor</h1>
+    </div>
+    <div class="instruction">
+        <h3>Choose your hand sign</h3>
+    </div>
+    <div class="choices">
+        <div class="choice">
+            <button id="rock" onclick="playGame('rock')">
+                <div class="choice-image">
+                    <img src="rock.png" alt="rock">
+                </div>
+            </button>
+            <div class="choice-name">
+                <p>Rock</p>
+            </div>
+        </div>
+        <div class="choice">
+            <button id="paper" onclick="playGame('paper')">
+                <div class="choice-image">
+                    <img src="paper.png" alt="paper">
+                </div>
+            </button>
+            <div class="choice-name">
+                <p>Paper</p>
+            </div>
+        </div>
+        <div class="choice">
+            <button id="scissor" onclick="playGame('scissor')">
+                <div class="choice-image">
+                    <img src="scissor.png" alt="scissor">
+                </div>
+            </button>
+            <div class="choice-name">
+                <p>Scissor</p>
+            </div>
+        </div>
+    </div>
+    <div class="results">
+        <div class="result-static">
+            <h3>Result:</h3>
+        </div>
+        <div class="result-screen">
+            <div class="result-user">
+                <div id="player-score">0</div>
+                <div class="player-name">
+                    <p>User</p>
+                </div>
+                <div id="player-image">
+                    <img id='player-img' src="" alt="">
+                </div>
+                <div id="player-choice">
+                    <p>Unknown</p>
+                </div>
+            </div>
+            <div class="result-vs">
+                <div class="restart">
+                    <button id="restart-btn" onclick="restartScore()"><i
+                            class="bi bi-arrow-clockwise"></i>Restart</button>
+                </div>
+                <h3>VS</h3>
+            </div>
+            <div class="result-computer">
+                <div id="computer-score">0</div>
+                <div class="player-name">
+                    <p>Computer</p>
+                </div>
+                <div id="computer-image">
+                    <img id='computer-img' src="" alt="">
+                </div>
+                <div id="computer-choice">
+                    <p>Unknown</p>
+                </div>
+            </div>
+        </div>
+        <div id="result-text">
+            <h3>User Win</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
